@@ -1,19 +1,21 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 @font-face {
-  font-family: 'SoDoSans';
+  font-family: 'Noto Sans Japanese', sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("/common/fonts/SoDoSans/SoDoSans-Regular.woff") format("woff2");
 }
 
 @font-face {
-  font-family: 'SoDoSans';
+  font-family: 'Noto Sans Japanese', sans-serif;
   font-style: normal;
   font-weight: 700;
   src: url("/common/fonts/SoDoSans/SoDoSans-Bold.woff") format("woff2");
 }
 
 .mod-en {
-  font-family: 'SoDoSans';
+  font-family: 'Noto Sans Japanese', sans-serif;
 }
 
 @media print,
@@ -78,7 +80,7 @@ screen and (min-width: 1024px) {
   .block-main:after {
     display: block;
     content: "";
-    padding-top: 76.38%;
+    padding-top: 70%;
   }
 
   .block-main img {
@@ -104,14 +106,14 @@ screen and (min-width: 1024px) {
 
   .block-main ._title2 {
     position: absolute;
-    top: 15.45%;
+    top: 16%;
     left: 25.8%;
     width: 50%;
   }
 
   .block-main ._lead {
     position: absolute;
-    top: 22.91%;
+    top: 25%;
     left: 28.4%;
     width: 42.91%;
   }
@@ -139,7 +141,7 @@ screen and (min-width: 1024px) {
   }
 
   .block-main ._title2 {
-    font-size: 2.5vw;
+    font-size: 2.0vw;
     line-height: 1.5;
     text-align: center;
     font-weight: bold;
@@ -149,7 +151,7 @@ screen and (min-width: 1024px) {
 
   .block-main ._lead {
     font-size: 1.25vw;
-    line-height: 2;
+    line-height: 1.5;
     text-align: center;
     font-weight: bold;
   }
@@ -1568,7 +1570,7 @@ screen and (min-width: 1024px) {
 
   .block-main ._lead {
     position: absolute;
-    top: 35.6vw;
+    top: 40vw;
     left: 2vw;
     width: 98vw;
   }

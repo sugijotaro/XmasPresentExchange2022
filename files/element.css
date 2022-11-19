@@ -1,0 +1,153 @@
+/* CSS Document */
+
+/* -------------------------------------------------- 
+**
+** default
+**
+** -------------------------------------------------- */
+body { font-size: 10px; }
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+address,
+code,
+em,
+img,
+q,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+fieldset,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+button { padding: 0; margin: 0; font-style: normal; font-weight: normal; outline: 0; border: none; background: none; }
+ol li,
+ul li { list-style: none; }
+blockquote,
+q { quotes: none; }
+a,
+img,
+fieldset { border: 0; }
+img,
+input { vertical-align: middle; }
+/**/
+textarea:focus,
+input:focus { outline: 0;  /*safariの自動フォーカスを切る */ }
+/**/
+table { font-size: 100%; border-collapse: collapse; border-spacing: 0; }
+/* typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+dt,
+dd,
+th,
+td,
+pre,
+caption,
+address { font-size: 120%; line-height: 1.75; }
+p input,
+p select,
+p textarea,
+li p,
+li li,
+li dt,
+li dd,
+li input,
+li select,
+li textarea,
+dd p,
+dd li,
+dd dt,
+dd dd,
+dd input,
+dd select,
+dd textarea,
+th p,
+th li,
+th dt,
+th dd,
+th input,
+th select,
+th textarea,
+td p,
+td li,
+td dt,
+td dd,
+td input,
+td select,
+td textarea { font-size: 100%; }
+textarea { line-height: 1.75; }
+input { padding: 0; margin: 0; }
+/* -------------------------------------------------- 
+**
+** common
+**
+** -------------------------------------------------- */
+.row { clear: left; }
+.col1 { width: 320px; float: left; }
+.col2 { width: 640px; }
+.col3 { width: 960px; }
+.col2,
+.col3 { float: left; }
+
+.clear { clear: left; }
+.forNotPc,
+.forTab,
+.forSp { display: none; }
+
+/* -------------------------------------------------- 
+**
+** txt
+**
+** -------------------------------------------------- */
+a { text-decoration: none; color: #666; }
+/* -------------------------------------------------- 
+**
+** heading
+**
+** -------------------------------------------------- */
+h2 { font-size: 240%; }
+h2 { margin: 19px 15px; }
+h3 { margin: 20px 15px 20px; }
+p { margin: 0 15px 20px; }
+/**/
+header.local h2 { margin-right: 100px; }
+/* -------------------------------------------------- 
+**
+** clearfix
+**
+** -------------------------------------------------- */
+.row:before,
+.row:after { content: " "; display: table; }
+.row:after { clear: both; }
+.row { *zoom: 1; }

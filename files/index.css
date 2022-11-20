@@ -1,21 +1,7 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
-@font-face {
-  font-family: 'Noto Sans Japanese', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: url("/common/fonts/SoDoSans/SoDoSans-Regular.woff") format("woff2");
-}
-
-@font-face {
-  font-family: 'Noto Sans Japanese', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/common/fonts/SoDoSans/SoDoSans-Bold.woff") format("woff2");
-}
-
-.mod-en {
-  font-family: 'Noto Sans Japanese', sans-serif;
+html {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 @media print,

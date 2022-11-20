@@ -59,13 +59,13 @@ screen and (min-width: 1024px) {
   }
 
   .block-bg02 {
-    background: url(/cafe/be-a-santa/images/bg2.png) center top no-repeat;
+    background: url(bg2.png) center top no-repeat;
     background-size: 100% auto;
   }
 
   .block-bg03 {
     margin-top: -1px;
-    background: url(/cafe/be-a-santa/images/bg3.png) center top no-repeat;
+    background: url(bg3.png) center top no-repeat;
     background-size: 100% auto;
   }
 
@@ -1522,12 +1522,12 @@ screen and (min-width: 1024px) {
   }
 
   .block-bg02 {
-    background: url(/cafe/be-a-santa/images/bg2_sp.png) center top no-repeat;
+    background: url(bg2_sp.png) center top no-repeat;
     background-size: 100vw auto;
   }
 
   .block-bg03 {
-    background: url(/cafe/be-a-santa/images/bg3_sp.png) center top no-repeat;
+    background: url(bg3_sp.png) center top no-repeat;
     background-size: 100vw auto;
   }
 

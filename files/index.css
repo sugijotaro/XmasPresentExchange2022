@@ -319,7 +319,7 @@ screen and (min-width: 1024px) {
 
   .block-intro ._lead {
     position: absolute;
-    top: 20.42%;
+    top: 21.5%;
     left: 21%;
     width: 37.5%;
   }
@@ -371,10 +371,10 @@ screen and (min-width: 1024px) {
     z-index: 20;
     position: absolute;
     top: 19.5%;
-    left: 2%;
+    left: 5.8%;
     right: 0px;
     transform: rotate(-4deg);
-    font-size: 2.08333vw;
+    font-size: 1.25vw;
     line-height: 1.1;
     font-weight: bold;
     color: #fff;
@@ -383,7 +383,7 @@ screen and (min-width: 1024px) {
 
   .block-intro ._title {
     font-size: 2.5vw;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: bold;
     color: #e69e38;
     letter-spacing: 0.02em;
@@ -1769,7 +1769,7 @@ screen and (min-width: 1024px) {
     left: 7%;
     right: 0px;
     transform: rotate(-13deg);
-    font-size: 2.13333vw;
+    font-size: 2.5vw;
     line-height: 1.777;
     font-weight: bold;
     color: #fff;
@@ -1784,7 +1784,7 @@ screen and (min-width: 1024px) {
     left: 6%;
     right: 0px;
     transform: rotate(-4deg);
-    font-size: 3.73333vw;
+    font-size: 2.5vw;
     line-height: 1.2;
     font-weight: bold;
     color: #fff;

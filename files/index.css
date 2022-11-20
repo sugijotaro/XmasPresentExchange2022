@@ -839,7 +839,7 @@ screen and (min-width: 1024px) {
   .block-donation ._title h3 {
     color: #dba14d;
     font-size: 5.56vw;
-    line-height: 1.04;
+    line-height: 1.2;
     font-weight: bold;
   }
 
@@ -866,7 +866,7 @@ screen and (min-width: 1024px) {
   }
 
   .block-donation ._kodomo-lead {
-    font-size: 1.11111vw;
+    font-size: 3vw;
     line-height: 1.75;
     font-weight: bold;
     color: #5c2f00;
@@ -2219,13 +2219,13 @@ screen and (min-width: 1024px) {
 
   .block-donation ._title2 {
     position: absolute;
-    top: 81.33vw;
+    top: 90vw;
     left: 19.1vw;
   }
 
   .block-donation ._lead {
     position: absolute;
-    top: 96.93vw;
+    top: 104vw;
     left: 20vw;
     width: 60vw;
   }
@@ -2272,7 +2272,7 @@ screen and (min-width: 1024px) {
   }
 
   .block-donation ._kodomo-lead {
-    font-size: 2.66667vw;
+    font-size: 7vw;
     line-height: 1.5;
     color: #5c2f00;
   }

@@ -13,6 +13,7 @@
   <meta property="og:description" content="お客様に喜びをシェアしてるセントラルのみんな〜！パートナー同士でも喜びシェアしたくない？💗ということで、プレゼント交換会を開催しようと思います！🤩">
   <meta property="og:image" content="https://www.starbucks.co.jp/images/og/23Holiday1_cafe_be-a-santa.png">
   <meta property="og:url" content="https://www.starbucks.co.jp/cafe/be-a-santa/">
+  <script src="./files/script.js" charset="UTF-8"></script>
   <div class="mainContents notExNav">
     <div class="mainContentsIn">
       <div class="ContentsBox">
@@ -151,21 +152,24 @@
           </div>
         </div>
 
-        <!-- <div class="block-bg03">
+        <div class="block-bg03">
           <div id="donation" class="block-donation">
             <div class="_title">
-              <h3 class="mod-en">Be a Santa<br>Donation</h3>
+              <h3 class="mod-en">あなたは誰に<br>プレゼントを<br class="mod-sp">渡す？</h3>
             </div>
-            <p class="_title2">あなたの一杯が、<br class="mod-sp">子どもたちの笑顔に。</p>
+            <p class="_title2">誰に渡すのかな〜〜？<br class="mod-sp">ドキドキ💗</p>
             <p class="_lead">
-              スターバックスは、2022年のホリデーから、寄付プログラム<br class="mod-pc">「Be a Santa Donation」をスタートします。<br>
-              11月1日(火)から12月25日(日)までのホリデーシーズン期間中のビバレッジの売上の一部で、認定NPO法人全国こども食堂支援センター・むすびえを通じ、地域の子どもたちにスターバックスのフードなどのセットをホリデーギフトとして寄付いたします。一杯のドリンクを通じて、子どもたちのサンタクロースになってみませんか？
+              プレゼントを誰が誰に渡すかは、ランダムですでに決定済みです！<br>
+              下の枠にパートナーIDを入れると、自分がプレゼントを渡す相手が表示されます！<br>
+              誰が自分にあげるのかわかっちゃったら面白くないから他の人のはみないようにね！<br>
+              <input type="text" id="ptrID" placeholder="パートナーID">
+              <button onclick="showNameFromID()">チェック</button>
             </p>
-            <p class="_kodomo-title">「こども食堂」って？</p>
-            <p class="_kodomo-lead">
-              「こども食堂」とは、子どもが一人でも行ける無料または低額の食堂。食の提供を通じて子どもたちの居場所を生み出しています。今年のホリデーは、こども食堂が子どもたちにとってより楽しい場所となるよう、<a
-                href="https://musubie.org/"
-                target="_blank">認定NPO法人全国こども食堂支援センター・むすびえ</a>を通じて寄付を行い、ホリデーらしい体験を地域の子どもたちにお届けします。
+            </p>
+
+            <p class="_kodomo-title">あなたがプレゼントをあげるのは...</p>
+            <p class="_kodomo-lead" id="ptrName">
+
             </p>
 
             <div class="_p2 _deco"><img src="./files/p2.gif" alt=""></div>
@@ -185,7 +189,7 @@
           </div>
         </div>
 
-        <div class="block-banner">
+        <!-- <div class="block-banner">
           <div class="_list">
             <div><a href="https://www.starbucks.co.jp/cafe/strawberryvelvetbrownie/"><img
                   src="./files/bnr_cafe_01_pc.jpg"
@@ -307,7 +311,8 @@
     </div> -->
 
 
-  </div><!-- /.mainContents -->
+  </div>
+  <!-- /.mainContents -->
   <!-- <footer class="footerWrap">
     <nav aria-label="Global footer" class="footerNav">
       <div class="footerNav__wrapper">

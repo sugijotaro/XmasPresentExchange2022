@@ -597,8 +597,8 @@ screen and (min-width: 1024px) {
 
   .block-make_video ._row-how ._t2 {
     position: absolute;
-    top: 50.32%;
-    left: 49.23%;
+    top: 51%;
+    left: 50%;
     width: 3.81%;
   }
 
@@ -610,7 +610,7 @@ screen and (min-width: 1024px) {
   }
 
   .block-make_video ._row-how ._t1b {
-    font-size: 1.66667vw;
+    font-size: 1.7vw;
     line-height: 1.5;
     font-weight: bold;
     color: #fff;
@@ -619,8 +619,8 @@ screen and (min-width: 1024px) {
   }
 
   .block-make_video ._row-how ._t2b {
-    font-size: 1.25vw;
-    line-height: 1.36;
+    font-size: 1.4vw;
+    line-height: 1.5;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -629,7 +629,7 @@ screen and (min-width: 1024px) {
 
   .block-make_video ._row-how ._spec {
     font-size: 1.11111vw;
-    line-height: 1.54;
+    line-height: 1.8;
     color: #fff;
     font-weight: bold;
   }
@@ -647,12 +647,7 @@ screen and (min-width: 1024px) {
   }
 
   .block-make_video ._row-how ._movie {
-    cursor: pointer;
     transition-duration: 0.2s;
-  }
-
-  .block-make_video ._row-how ._movie:hover {
-    opacity: 0.95;
   }
 
   .block-make_video ._deco1 {
@@ -2008,8 +2003,8 @@ screen and (min-width: 1024px) {
 
   .block-make_video ._row-how ._t2 {
     position: absolute;
-    top: 293.6vw;
-    left: 54.66vw;
+    top: 300vw;
+    left: 48vw;
     width: 10.13vw;
   }
 
@@ -2037,8 +2032,8 @@ screen and (min-width: 1024px) {
   }
 
   .block-make_video ._row-how ._t2b {
-    font-size: 2.4vw;
-    line-height: 1.4;
+    font-size: 2.7vw;
+    line-height: 1.7;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -2047,7 +2042,7 @@ screen and (min-width: 1024px) {
 
   .block-make_video ._row-how ._spec {
     font-size: 2.13333vw;
-    line-height: 1.5;
+    line-height: 1.8;
     color: #fff;
     font-weight: bold;
   }

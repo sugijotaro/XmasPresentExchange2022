@@ -1549,14 +1549,14 @@ screen and (min-width: 1024px) {
   .block-main ._title2 {
     position: absolute;
     top: 26vw;
-    left: 8vw;
+    left: 5.3vw;
     width: 90vw;
   }
 
   .block-main ._lead {
     position: absolute;
     top: 40vw;
-    left: 2vw;
+    left: 1vw;
     width: 98vw;
   }
 
@@ -1903,19 +1903,19 @@ screen and (min-width: 1024px) {
   .block-make_video ._row-intro ._title {
     position: absolute;
     top: 10vw;
-    left: 19.2vw;
+    left: 14vw;
   }
 
   .block-make_video ._row-intro ._title2 {
     position: absolute;
     top: 31.2vw;
-    left: 20.39vw;
+    left: 14vw;
   }
 
   .block-make_video ._row-intro ._lead {
     position: absolute;
     top: 60.5vw;
-    left: 19.73vw;
+    left: 14vw;
     width: 62vw;
   }
 
@@ -1973,7 +1973,7 @@ screen and (min-width: 1024px) {
   .block-make_video ._row-how ._spec {
     position: absolute;
     top: 360vw;
-    left: 20.93vw;
+    left: 18vw;
     width: 63vw;
   }
 
